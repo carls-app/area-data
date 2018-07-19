@@ -1,0 +1,84 @@
+name: Bachelor of Arts
+slug: curriculum/graduate-requirements-degrees/general-education-requirements-ba
+type: degree
+revision: 2018-19
+result: AI & Curricular Exploration & Global Citizenship & Writing Requirement & PE
+
+
+Argument and Inquiry Seminar (AI):
+    six credits from courses where { requirements = AI }
+
+
+Curricular Exploration:
+    Arts Practice (ARP):
+        six credits from courses where { requirements = ARP }
+
+    Formal or Statistical Reasoning (FSR):
+        six credits from courses where { requirements = FSR }
+
+    Humanistic Inquiry (HI):
+        six credits from courses where { requirements = HI }
+
+    Literary/Artistic Analysis (LA):
+        six credits from courses where { requirements = LA }
+
+    Science with Lab (LS):
+        six credits from courses where { requirements = LS }
+
+    Social Inquiry (SI):
+        six credits from courses where { requirements = SI }
+
+    result: all of ( ARP, FSR, HI, LA, LS, SI )
+
+
+Global Citizenship:
+    Language Requirement:
+        Arabic:    ARBC 205
+        Chinese:   CHIN 205
+        French:    FREN 204
+        German:    GERM 204
+        Greek:     GRK 204
+        Hebrew:    HEBR 204
+        Japanese:  JAPN 205
+        Latin:     LATN 204
+        Russian:   RUSS 204
+        Spanish:   SPAN 204
+
+        result: one of (
+            Arabic, Chinese, French, German,
+            Greek, Japanese, Latin, Russian,
+            Spanish )
+
+    International Studies (IS):
+        six credits from courses where { requirements = IS }
+
+    Intercultural Domestic Studies (IDS):
+        six credits from courses where { requirements = IDS }
+
+    result:
+        Language Requirement & IS & IDS
+
+
+Writing Requirement:
+    Portfolio:
+        message:
+            Students are required to successfully complete a writing portfolio
+            to be reviewed by faculty after the third term, and no later than
+            the sixth term.
+
+    result:
+        one course where { requirements = WR1 } &
+        six credits from courses where { requirements = WR2 } &
+        Portfolio
+
+
+Physical Education (PE):
+    message:
+        Four terms of Physical Education activity are to be taken by each
+        student. Only one activity per term may count toward this requirement.
+
+    filter:
+        only courses where { requirements = PE }
+
+    result:
+        four terms from filter

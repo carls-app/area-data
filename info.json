@@ -1,0 +1,23 @@
+{
+  "type": "areas",
+  "files": [
+    {
+      "hash": "8de8a226a2cb54520d8a139ae10b956943a56bd0276319568b65adcfce33f87c882c57c31893a5bd2a5e809346592b57109f9766bbb4b9c8a38f750ff14b913c",
+      "path": "degrees/bachelor-of-arts.yaml",
+      "type": "degree",
+      "revision": "2018-19"
+    },
+    {
+      "hash": "e0646066d265da9f9bbaff79384d5fa7b974398a629c2a9429f51e82c98c57a6f180a857d6749784f3dc182282b628de0257464102bf207c52cab29a2c1b49af",
+      "path": "majors/cs.yaml",
+      "type": "major",
+      "revision": "2018-19"
+    },
+    {
+      "hash": "a17941ab060622971cd0c2ec709c1fd8ab98384851550af1e68880ae46be0a96381eb42caa4446ba1f213d9bf57bc329ba64571c55a72b262bfd1c5d7fb64346",
+      "path": "majors/physics.yaml",
+      "type": "major",
+      "revision": "2018-19"
+    }
+  ]
+}
